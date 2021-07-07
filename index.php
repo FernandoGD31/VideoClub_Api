@@ -37,8 +37,8 @@ include('header.php');
                     <td> </td>
                 </tr>
                 <tr>
-                    <th scope="row">cris</th>
-                    <td> </td>
+                    <th scope="row">Cristian Gonzalez Aguilar</th>
+                    <td> 14650304</td>
                     <td> </td>
                     <td> </td>
                 </tr>
