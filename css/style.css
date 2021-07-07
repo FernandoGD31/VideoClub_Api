@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    background-color: #000;
+}
+
+.nav-color {
+    background-color: #161616;
+}
+
+.nav-color a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-color a:hover {
+    color: #d32f2f;
+}
+
+.grid {
+    margin-left: 7%;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.grid .cards {
+    margin-top: 20px;
+    width: 400px;
+    max-height: 100%;
+    /* margin: 20% 0 20% 5%; */
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d1d1d;
+    padding-right: 5%;
+}
+
+.cards .image {
+    max-height: 100%;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.input-cont {
+    width: 40%;
+}
+
+.cards .wrapper-text {
+    margin-top: 8%;
+    background-color: transparent;
+    padding-left: 10%;
+}
+
+.cards .wrapper-text .star {
+    color: #fffb00;
+}
+
+.cards .wrapper-text .titulo {
+    font-size: 17px;
+    height: 50px;
+}
+
+.cards .wrapper-text .titulo,
+.contenido {
+    color: #fff;
+    margin-bottom: 5%;
+    background-color: transparent;
+}
+
+.cards .wrapper-text label {
+    color: #a5a5a5;
+}
+
+.cards .wrapper-text .add,
+.trailer,
+.sub {
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 9px 25px;
+    background-color: rgb(43, 43, 43);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: rgb(121, 121, 121);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cards .wrapper-text .trailer:hover,
+.add:hover,
+.sub:hover {
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+}
+
+.btnAdd {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: #d32f2f;
+}
+
+.titulo {
+    margin-top: 5%;
+    color: rgb(170, 170, 170);
+    font-size: 40px;
+}
+
+.icono {
+    color: #d32f2f;
+    font-size: 40px;
+}
+
+.icono2 {
+    color: #d32f2f;
+    font-size: 20px;
+}
+
+.txt-color {
+    color: #fff;
+}
+
+.btn-color {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.contenedor_img {
+    float: left;
+    height: 500px;
+    width: 350px;
+}
+
+.contenedor_img img {
+    max-height: 100%;
+}
+
+.contenedor_datos {
+    padding: 20px;
+    float: left;
+    background-color: #161616;
+    height: 500px;
+    width: 900px;
+}
+
+.contenedor_datos h4 {
+    color: rgb(196, 196, 196);
+    font-size: 15px;
+}
+
+.contenedor_datos label {
+    margin-right: 10px;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+}
+
+.contenedor_trailer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: left;
+    padding: 20px;
+    height: 600px;
+    width: 1200px;
+}
+
+.contenedor_trailer label {
+    margin-right: 10px;
+    color: rgb(214, 214, 214);
+    font-size: 25px;
+}
+
+.contenedorApi {
+    background-color: #505050;
+}
