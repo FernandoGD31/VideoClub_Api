@@ -12,13 +12,14 @@ if (isset($_POST['eliminar'])) {
 
         $json = file_get_contents($url);
 
-
+        echo $json;
        
-        header("location: ../eliminarDirector.php");
+        //header("location: ../eliminarDirector.php");
     } else {
-        echo '<script type="text/javascript">
-        alert("faltan datos");
-        window.location.href="eliminarDirector.php";
-    </script>';
+        echo "asd";
+    //     echo '<script type="text/javascript">
+    //     alert("faltan datos");
+    //     window.location.href="eliminarDirector.php";
+    // </script>';
     }
 }
