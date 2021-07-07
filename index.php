@@ -25,8 +25,8 @@ include('header.php');
                     <td> </td>
                 </tr>
                 <tr>
-                    <th scope="row">Juli</th>
-                    <td> </td>
+                    <th scope="row">Julissa Gonzalez Tellez</th>
+                    <td> 16650272 </td>
                     <td> </td>
                     <td> </td>
                 </tr>

@@ -19,6 +19,17 @@
                 </div>
             </li>
 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true">
+                    Director
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #161616; ">
+                    <a class="dropdown-item" style="font-size: 14px;" href="mostrarDirector.php">Mostrar Director</a>
+                    <a class="dropdown-item" style="font-size: 14px;" href="registrarDirector.php">Registrar Director</a>
+                    <a class="dropdown-item" style="font-size: 14px;" href="eliminarDirector.php">Eliminar Director</a>
+                </div>
+            </li>
+
 
         </ul>
     </div>
