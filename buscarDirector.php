@@ -8,7 +8,7 @@ include('navbar.php');
 
  <div class="container txt-color mt-5">
         <h3 class="titulo">Buscar Director</h3><br>
-        <form method="POST" action="mostrarDirector.php" class="row g-3">
+        <form method="POST" action="mostrarDirectorBuscar.php" class="row g-3">
             <div class="col-md-4">
                 <label class="form-label ">Nombre</label>
                 <input type="text" class="form-control" name="nombre">
