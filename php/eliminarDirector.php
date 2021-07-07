@@ -12,9 +12,7 @@ if (isset($_POST['eliminar'])) {
 
         $json = file_get_contents($url);
 
-        echo $json;
-       
-        //header("location: ../eliminarDirector.php");
+        header("location: ../eliminarDirector.php");
     } else {
         echo "asd";
     //     echo '<script type="text/javascript">
