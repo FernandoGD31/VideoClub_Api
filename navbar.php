@@ -30,6 +30,17 @@
                 </div>
             </li>
 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true">
+                    Actores
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #161616; ">
+                    <a class="dropdown-item" style="font-size: 14px;" href="mostrarActor.php">Mostrar Actores</a>
+                    <a class="dropdown-item" style="font-size: 14px;" href="registrarActor.php">Registrar Actor</a>
+                    <a class="dropdown-item" style="font-size: 14px;" href="eliminarAct.php">Eliminar Actor</a>
+                </div>
+            </li>
+
 
         </ul>
     </div>
