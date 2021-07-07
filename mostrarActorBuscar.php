@@ -7,7 +7,7 @@ if (isset($_POST['buscar'])) {
     ) {
         $nombre = $_POST['nombre'];
         $par = str_replace(" ","%20",$nombre);
-        $url = "http://31.220.62.39/API/VIDEOCLUB/public/Director/".$par;
+        $url = "http://31.220.62.39/API/VIDEOCLUB/public/Actor/".$par;
         $json = file_get_contents($url);
         $array = json_decode($json, true);
         include('header.php');
