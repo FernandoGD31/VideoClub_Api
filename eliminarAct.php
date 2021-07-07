@@ -15,7 +15,7 @@ include('header.php');
             </div>
             
             <div class="col-12">
-                <input type="submit" name="eliminara" class="btn btn-color" value="Eliminar">
+                <input type="submit" name="eliminar" class="btn btn-color" value="Eliminar">
             </div>
         </form>
     </div>

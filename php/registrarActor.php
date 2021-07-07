@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['registrara'])) {
+if (isset($_POST['registrar'])) {
 
     if (
         $_POST['nombre'] &&
@@ -36,7 +36,7 @@ if (isset($_POST['registrara'])) {
         
         $resultado = file_get_contents('http://31.220.62.39/API/VIDEOCLUB/public/RegistrarActor', false, $contexto);
         
-         header("location: ../mostrarActor.php");
+         header("location: ../registrarAct.php");
     }else{
         echo '<script type="text/javascript">
                 alert("faltan datos");

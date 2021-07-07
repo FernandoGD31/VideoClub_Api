@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST['eliminara'])) {
+if (isset($_POST['eliminar'])) {
 
 
 
@@ -14,7 +14,7 @@ if (isset($_POST['eliminara'])) {
 
 
        
-        header("location: ../mostrarActor.php");
+        header("location: ../mostrarAct.php");
     } else {
         echo '<script type="text/javascript">
         alert("faltan datos");

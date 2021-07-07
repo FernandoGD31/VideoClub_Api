@@ -5,7 +5,7 @@ $(document).ready(function() {
 
         success: function(response) {
             let datos = JSON.parse(response);
-            let grid = document.querySelector('#grid')
+            let grid = document.querySelector('#containe')
             grid.innerHTML = ""
 
             for (const item of datos) {
